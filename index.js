@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
-const connection = require('./database/connection');
+//const connection = require('./database/connection');
 
 // View Engine
 app.set('view engine', 'ejs');
